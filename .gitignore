@@ -1,0 +1,22 @@
+# Build output - never commit binaries
+bin/
+obj/
+
+# Visual Studio / Rider
+.vs/
+.idea/
+*.user
+*.suo
+
+# Publish artifacts
+publish/
+*.pubxml.user
+
+# Logs & local secrets (keep template appsettings.json, keep local overrides out)
+appsettings.Development.json
+Logs/
+*.log
+
+# OS noise
+Thumbs.db
+.DS_Store
